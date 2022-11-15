@@ -2,17 +2,17 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.jenkins.demo</groupId>
-  <artifactId>JenkinsPipeline</artifactId>
+  <artifactId>prasanth-pipeline-job1</artifactId>
   <packaging>war</packaging>
   <version>1.5</version>
-  <name>JenkinsPipelinewar Maven Webapp</name>
+  <name>prasanth-pipeline-job1War Maven Webapp</name>
   <!-- FIXME change it to the project's website -->
   <url>http://maven.apache.org</url>
   <properties> 
    <maven.compiler.source>1.8</maven.compiler.source>
    <maven.compiler.target>1.8</maven.compiler.target>
 </properties>
-  <name>JenkinsWar Maven Webapp</name>
+  <name>prasanth-pipeline-job1War Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
@@ -31,6 +31,6 @@
         </plugin>
       </plugins>
     </pluginManagement>
-    <finalName>JenkinsPipeline</finalName>
+    <finalName>prasanth-pipeline-job1</finalName>
   </build>
 </project>
