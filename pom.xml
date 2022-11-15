@@ -20,6 +20,14 @@
     </dependency>
   </dependencies>
   <build>
+    <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
+      <plugins>               
+     	<plugin>
+           <artifactId>maven-war-plugin</artifactId>
+           <version>3.0.0</version>
+        </plugin>
+      </plugins>
+    </pluginManagement>
     <finalName>JenkinsPipeline</finalName>
   </build>
 </project>
